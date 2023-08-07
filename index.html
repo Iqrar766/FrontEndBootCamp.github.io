@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frontend Boootcamp</title>
+    <style>
+      /* Option 2: Import via CSS */
+      @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+    </style>
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand mx-5" href="#">Frontend Boootcamp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Learn"
+                >What You Learn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Question">Question</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#instructor">Instructor</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--ShowCase Section-->
+    <section class="bg-dark">
+      <div class="container d-flex justify-content-evenly align-items-center">
+        <div class="text-light m-5">
+          <h1>Become a <span>Web Developer</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            fuga libero<br />
+            dolorum tenetur placeat repudiandae nobis!<br />Saepe rerum
+            doloribus veritatis?
+          </p>
+          <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+        </div>
+        <div class="img-fluid ms-auto d-none d-lg-block">
+          <img src="image1-pro.png" alt="animated humman with computer" />
+        </div>
+      </div>
+    </section>
+
+    <!--Newsletter Section-->
+    <section class="bg-primary text-light">
+      <div class="container p-4">
+        <div class="d-flex justify-content-between align-items-center">
+          <h5 class="m-3 m-mb-0">Sigh Up For Our Newsletter</h5>
+          <div class="input-group w-50">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Your Email"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button class="btn btn-dark" type="button" id="button-addon2">
+              Button
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section Cards-->
+    <section class="text-light">
+      <div class="container p-5 text-center">
+        <div class="row">
+          <div class="col mb-3">
+            <div class="card bg-dark text-light" style="width: 16rem">
+              <h1><i class="bi bi-laptop"></i></h1>
+              <div class="card-body">
+                <h5 class="card-title">Virtual</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="card bg-secondary text-light" style="width: 16rem">
+              <h1><i class="bi bi-person-square"></i></h1>
+              <div class="card-body">
+                <h5 class="card-title">Hybrid</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="card bg-dark text-light" style="width: 16rem">
+              <h1><i class="bi bi-people-fill"></i></h1>
+              <div class="card-body">
+                <h5 class="card-title">In Person</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section Learn-->
+    <section id="Learn">
+      <div class="bg-secondary">
+        <div class="container p-5">
+          <div class="row featurette mb-5">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">
+                Learn New Thing
+                <span class="text-body-secondary">It’ll blow your mind.</span>
+              </h2>
+              <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                officiis officia cum pariatur ducimus, necessitatibus tempora
+                deserunt amet impedit minus!
+              </p>
+              <a href="#">&gt;Read More</a>
+            </div>
+            <div class="col-md-5">
+              <img
+                class="img-fluid"
+                src="https://source.unsplash.com/400x300/?codin,computer"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark">
+        <div class="container p-5 text-light">
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">
+                Learn New Thing
+                <span class="text-body-secondary">It’ll blow your mind.</span>
+              </h2>
+              <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                officiis officia cum pariatur ducimus, necessitatibus tempora
+                deserunt amet impedit minus!
+              </p>
+              <a href="#">&gt;Read More</a>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img
+                class="img-fluid"
+                src="https://source.unsplash.com/400x300/?computer,coding"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section Question-->
+    <section id="Question" class="text-dark text-center">
+      <div class="container mt-5 mb-5">
+        <h2>Frequently Asked Question</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                second item's accordion body. Let's imagine this being filled
+                with some actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                third item's accordion body. Nothing more exciting happening
+                here in terms of content, but just filling up the space to make
+                it look, at least at first glance, a bit more representative of
+                how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section Instructor-->
+    <section id="instructor">
+      <div class="container text-center">
+        <div class="row align-items-center text-center my-auto mx-auto">
+          <div class="col my-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="instructor1.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">IQRAR INAM</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="Instructor2.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ZARYAB KHAN</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="Instructor3.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">MUHAMMAD HARIS</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section Footer-->
+    <section>
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            >
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >© 2023 Company, Inc</span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><i class="bi bi-twitter"></i></li>
+            <li class="ms-3"><i class="bi bi-facebook"></i></li>
+            <li class="ms-3"><i class="bi bi-instagram"></i></li>
+            <li class="ms-3"><i class="bi bi-linkedin"></i></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+</html>
